@@ -4,37 +4,49 @@ input, textarea, select {
     font-size: 19pt;
     font-weight: 300;
     line-height: 1.75em;
-    color: #888;
+    color: rgb(36, 166, 170);
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-weight: 300;
-    color: #666;
+    color: rgb(31, 155, 172);
+    font-family: 'Caveat', cursive;
+
     line-height: 1.5em;
 }
 
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
     color: inherit;
     text-decoration: none;
+    font-family: 'Caveat', cursive;
+
 }
 
     h1 a strong, h2 a strong, h3 a strong, h4 a strong, h5 a strong, h6 a strong {
-        color: #333;
+        color: rgb(34, 138, 151);
+        font-family: 'Caveat', cursive;
+
     }
 
 
 
     h2 {
 		font-size: 2em;
-		letter-spacing: -1px;
+        /* letter-spacing: -1px; */
+        font-family: 'Caveat', cursive;
+
 	}
 
 		h2.alt {
-			color: #888;
+            color: rgb(28, 114, 136);
+            font-family: 'Caveat', cursive;
+
 		}
 
 			h2.alt strong {
-				color: #666;
+                color: rgb(32, 150, 158);
+                font-family: 'Caveat', cursive;
+
 			}
 
 	h3 {
@@ -45,7 +57,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
     strong, b {
 		font-weight: 300;
-		color: #666;
+		color: rgb(23, 145, 150);
 	}
 
 	em, i {
@@ -65,7 +77,7 @@ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
 
 
     a:hover {
-        color: #E27689;
+        color: rgb(35, 150, 144);
         border-bottom-color: rgba(255, 255, 255, 0);
     }
 
@@ -360,7 +372,7 @@ br.clear {
                 .image.avatar48 {
                     width: 48px;
                     height: 48px;
-                    background: #f00;
+                    background: rgb(56, 124, 133);
                 }
         
                     .image.avatar48 img {
@@ -433,6 +445,8 @@ ul.icons {
         line-height: 2em;
         text-align: center;
         border: 0;
+        font-family: 'Caveat', cursive;
+
     }
 
 
@@ -454,8 +468,8 @@ ul.icons {
 		display: block;
 		border: 0;
 		outline: 0;
-		background: #fff;
-		background: rgba(255, 255, 255, 0.75);
+		background: rgb(110, 144, 153);
+		background: rgba(114, 175, 170, 0.75);
 		width: 100%;
 		border-radius: 0.35em;
 		padding: 0.75em 1em 0.75em 1em;
@@ -464,7 +478,9 @@ ul.icons {
 		-moz-transition: all 0.35s ease-in-out;
 		-webkit-transition: all 0.35s ease-in-out;
 		-ms-transition: all 0.35s ease-in-out;
-		transition: all 0.35s ease-in-out;
+        transition: all 0.35s ease-in-out;
+        font-family: 'Caveat', cursive;
+
 	}
 
 		form input[type="text"]:focus,
@@ -473,7 +489,7 @@ ul.icons {
 		form select:focus,
 		form textarea:focus {
 			box-shadow: 0 0 2px 1px #8ebebc;
-			background: #fff;
+			background: #2e8d88;
 		}
 
 	form input[type="text"],
@@ -526,13 +542,17 @@ ul.icons {
 		table th {
 			text-align: left;
 			padding: 0.5em 1em 0.5em 1em;
-			color: #fff;
-			background: #222729 url("images/overlay.png");
+			color: rgb(24, 160, 153);
+            background: #d3d3d3 url("images/overlay.png");
+            font-family: 'Caveat', cursive;
+
 		}
 
 		table thead {
-			background: #444;
-			color: #fff;
+			background: rgb(255, 255, 255);
+            color: rgb(34, 136, 150);
+            font-family: 'Caveat', cursive;
+
 		}
 
 		table tfoot {
@@ -549,20 +569,23 @@ ul.icons {
 		position: relative;
 		display: inline-block;
 		border-radius: 0.35em;
-		color: #fff !important;
+        color: rgb(30, 156, 150) !important;
+        text-shadow: 2px 2px black;
 		text-decoration: none;
 		padding: 0.75em 2.5em 0.75em 2.5em;
-		background-color: #8ebebc;
+		background-color: #ffffff;
 		border: 0;
 		cursor: pointer;
-		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
-		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
+		background-image: -moz-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("http://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9");
+		background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("http://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9");
 		background-image: -ms-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
 		background-image: linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.15)), url("images/overlay.png");
 		-moz-transition: background-color 0.35s ease-in-out;
 		-webkit-transition: background-color 0.35s ease-in-out;
 		-ms-transition: background-color 0.35s ease-in-out;
-		transition: background-color 0.35s ease-in-out;
+        transition: background-color 0.35s ease-in-out;
+        font-family: 'Caveat', cursive;
+
 	}
 
 		input[type="button"]:hover,
@@ -570,7 +593,9 @@ ul.icons {
 		input[type="reset"]:hover,
 		button:hover,
 		.button:hover {
-			background-color: #9ececc;
+            background-color: #cead9e;
+            font-family: 'Caveat', cursive;
+
 		}
 
 		input[type="button"]:active,
@@ -578,7 +603,9 @@ ul.icons {
 		input[type="reset"]:active,
 		button:active,
 		.button:active {
-			background-color: #7eaeac;
+            background-color: #ffffff;
+            font-family: 'Caveat', cursive;
+
         }
         
 /* item */
@@ -592,10 +619,14 @@ ul.icons {
                 margin: 0;
                 padding: 1em 0 1em 0;
                 font-size: 0.8em;
+                font-family: 'Caveat', cursive;
+
             }
     
                 .item header h3 {
                     font-size: 1em;
+                    font-family: 'Caveat', cursive;
+
                 }
 
 
@@ -636,9 +667,9 @@ ul.icons {
                         -webkit-justify-content: space-between;
                         -ms-justify-content: space-between;
                         justify-content: space-between;
-                        background: #222629 url("images/overlay.png");
-                        box-shadow: inset -0.25em 0 0.25em 0 rgba(0, 0, 0, 0.1);
-                        color: #fff;
+                        background: #c4cbcc url("http://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9");
+                        box-shadow: inset -0.25em 0 0.25em 0 rgba(255, 255, 255, 0.1);
+                        color: rgb(25, 155, 160);
                         height: 100%;
                         left: 0;
                         overflow-y: auto;
@@ -671,10 +702,12 @@ ul.icons {
                         #header .icons {
                             font-size: 0.8em;
                             text-align: center;
+                            font-family: 'Caveat', cursive;
+
                         }
                 
                             #header .icons a {
-                                color: #41484c;
+                                color: #137a94;
                                 -moz-transition: color 0.35s ease-in-out;
                                 -webkit-transition: color 0.35s ease-in-out;
                                 -ms-transition: color 0.35s ease-in-out;
@@ -682,7 +715,7 @@ ul.icons {
                             }
                 
                                 #header .icons a:hover {
-                                    color: #fff;
+                                    color: rgb(24, 136, 139);
                                 }
                 
                     #logo {
@@ -694,19 +727,24 @@ ul.icons {
                 
                         #logo h1 {
                             position: relative;
-                            color: #fff;
+                            color: rgb(42, 140, 153);
                             font-weight: 600;
-                            font-size: 1em;
+                            font-size: 1.1em;
                             line-height: 1em;
+                            text-shadow: 2px 2px black;
+                            font-family: 'Caveat', cursive;
+
                         }
                 
                         #logo p {
                             position: relative;
                             display: block;
-                            font-size: 0.6em;
-                            color: rgba(255, 255, 255, 0.5);
+                            font-size: 0.8em;
+                            color: rgb(38, 172, 165);
                             line-height: 1.25em;
                             margin: 0.5em 0 0 0;
+                            font-family: 'Caveat', cursive;
+
                         }
                 
                         #logo .image {
@@ -729,6 +767,7 @@ ul.icons {
                                 display: block;
                                 padding: 0.5em 1.5em 0.5em 1.5em;
                                 color: rgba(255, 255, 255, 0.5);
+                                text-shadow: 2px 2px rgb(3, 3, 3);
                                 text-decoration: none;
                                 outline: 0;
                                 border: 0;
@@ -736,6 +775,8 @@ ul.icons {
                                 -webkit-transition: none;
                                 -ms-transition: none;
                                 transition: none;
+                                font-family: 'Caveat', cursive;
+
                             }
                 
                                 #nav ul li a span {
@@ -747,20 +788,21 @@ ul.icons {
                                     #nav ul li a span:before {
                                         position: absolute;
                                         left: 0;
-                                        color: #41484c;
+                                        color: #258b8f;
                                         text-align: center;
                                         width: 1.25em;
                                         line-height: 1.75em;
+                                        
                                     }
                 
                                 #nav ul li a.active {
-                                    background: rgba(0, 0, 0, 0.15);
-                                    box-shadow: inset 0 0 0.25em 0 rgba(0, 0, 0, 0.125);
-                                    color: #fff;
+                                    background: rgba(243, 243, 243, 0.15);
+                                    box-shadow: inset 0 0 0.25em 0 rgba(211, 58, 58, 0.125);
+                                    color: rgb(34, 158, 142);
                                 }
                 
                                     #nav ul li a.active span:before {
-                                        color: #e27689;
+                                        color: #06869c;
                                     }
 
 
@@ -815,25 +857,26 @@ ul.icons {
                                     }
                             
                                         #main > section.dark {
-                                            color: #ddd;
-                                            color: rgba(255, 255, 255, 0.75);
+                                            color: rgb(0, 155, 175);
+                                            color: rgba(43, 160, 168, 0.75);
+                                            
                                         }
                             
                                             #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
                                                 /* color: inherit; */
-                                                color:#0b2124;
-                                                font-family: 'Allerta Stencil', sans-serif;
+                                                color:#1596a7;
+                                                font-family: 'Caveat', cursive;
                                             }
                             
                                             #main > section.dark strong {
-                                                color: rgb(14, 30, 34);
-                                                font-family: 'Pacifico', cursive;
+                                                color: rgb(22, 131, 158);
+                                                font-family: 'Caveat', cursive;
                                                 border-color: inherit;
                                             }
                             
                                             #main > section.dark a {
-                                                color: rgb(131, 117, 87);
-                                                font-family: 'Indie Flower', cursive;
+                                                color: rgb(32, 144, 148);
+                                                font-family: 'Caveat', cursive;
                                                 border-color: inherit;
                                             }
                             
@@ -848,8 +891,8 @@ ul.icons {
                                         }
                             
                                         #main > section.one {
-                                            background-color: #81918E;
-                                            background-image: url("../../images/img01.jpg");
+                                           background-image:  url("http://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9");
+                                            
                                         }
                             
                                         #main > section.two {

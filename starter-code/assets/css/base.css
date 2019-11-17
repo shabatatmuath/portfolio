@@ -7,12 +7,12 @@ html {
 }
 
 body {
-    background: #fff;
-    font-family: 'Source Sans Pro', sans-serif;
+    background: rgb(109, 151, 151);
+    font-family: 'Caveat', cursive;
     font-size: 19pt;
     font-weight: 300;
     line-height: 1.75em;
-    color: #888;
+    color: rgb(35, 161, 155);
 }
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
     -moz-animation: none !important;
@@ -32,12 +32,14 @@ header {
 }
 
     header > p {
-        color:#0c423a;
-        font-family: 'Architects Daughter', cursive;
+        color:rgb(35, 161, 155);
+        font-family: 'Caveat', cursive;
         margin: 1em 0 0 0;
     }
 
 footer {
+    font-family: 'Caveat', cursive;
+
     margin: 2em 0 0 0;
 }
 
@@ -48,6 +50,8 @@ footer {
 }
 section, article {
     margin-bottom: 3em;
+    font-family: 'Caveat', cursive;
+
 }
 
     section > :last-child,
