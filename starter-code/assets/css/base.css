@@ -32,7 +32,7 @@ header {
 }
 
     header > p {
-        color:rgb(35, 161, 155);
+        color:rgb(255, 255, 255);
         font-family: 'Caveat', cursive;
         margin: 1em 0 0 0;
     }
