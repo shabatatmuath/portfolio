@@ -686,6 +686,8 @@ ul.icons {
                             -ms-flex-grow: 1;
                             flex-grow: 1;
                         }
+
+                       
                 
                         #header .bottom {
                             -moz-flex-shrink: 0;
@@ -857,25 +859,25 @@ ul.icons {
                                     }
                             
                                         #main > section.dark {
-                                            color: rgb(0, 155, 175);
-                                            color: rgba(43, 160, 168, 0.75);
+                                            color: rgb(255, 255, 255);
+                                            color: rgba(255, 255, 255, 0.75);
                                             
                                         }
                             
                                             #main > section.dark h2, #main > section.dark h3, #main > section.dark h4, #main > section.dark h5, #main > section.dark h6 {
                                                 /* color: inherit; */
-                                                color:#1596a7;
+                                                color:#ffffff;
                                                 font-family: 'Caveat', cursive;
                                             }
                             
                                             #main > section.dark strong {
-                                                color: rgb(22, 131, 158);
+                                                color: rgb(255, 255, 255);
                                                 font-family: 'Caveat', cursive;
                                                 border-color: inherit;
                                             }
                             
                                             #main > section.dark a {
-                                                color: rgb(32, 144, 148);
+                                                color: rgb(253, 255, 255);
                                                 font-family: 'Caveat', cursive;
                                                 border-color: inherit;
                                             }
@@ -891,8 +893,7 @@ ul.icons {
                                         }
                             
                                         #main > section.one {
-                                           background-image:  url("http://images.unsplash.com/photo-1533134486753-c833f0ed4866?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9");
-                                            
+                                                                     
                                         }
                             
                                         #main > section.two {
@@ -906,4 +907,13 @@ ul.icons {
                                         #main > section.four {
                                             background-color: #e8edec;
                                         }
+                                        video {
+                                            position: absolute;
+                                            top: 0;
+                                            left: 0;
+                                            z-index: -1;
+                                            opacity: 1;
+                                            width:100%;
+                                            
+                                         }
                             
